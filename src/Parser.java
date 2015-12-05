@@ -26,7 +26,7 @@ public class Parser {
 			match(token);
 			statement();
 		}
-		//output += "Statment Sequence found\n";
+		output += "Statment Sequence found\n";
 	}
 	public static void statement(){
 		if(token.equals("if")){
@@ -84,7 +84,7 @@ public class Parser {
 		if(token.equals("<") || token.equals("=")){
 			match(token);
 			simple_exp();
-			//output += "experssion found\n";
+			output += "experssion found\n";
 		}
 	}
 	public static void simple_exp(){
@@ -93,7 +93,7 @@ public class Parser {
 			match(token);
 			term();
 		}
-		//output += "simple experssion found\n";
+		output += "simple experssion found\n";
 	}
 	public static void term(){
 		factor();
@@ -101,7 +101,7 @@ public class Parser {
 			match(token);
 			factor();
 		}
-		//output += "term found\n";
+		output += "term found\n";
 	}
 	public static void factor(){
 		if(token.equals("(")){		
@@ -115,7 +115,7 @@ public class Parser {
 		}else{
 			error();
 		}
-		//output += "factor found\n";
+		output += "factor found\n";
 	}
 	//match and error 
 	public static void match(String ExpexpectedToken){

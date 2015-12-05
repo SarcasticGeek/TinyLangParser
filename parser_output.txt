@@ -1,8 +1,40 @@
 Read Statment found
+factor found
+term found
+simple experssion found
+factor found
+term found
+simple experssion found
+experssion found
+factor found
+term found
+simple experssion found
 Assignment Statment found
+factor found
+factor found
+term found
+simple experssion found
 Assignment Statment found
+factor found
+term found
+factor found
+term found
+simple experssion found
 Assignment Statment found
+Statment Sequence found
+factor found
+term found
+simple experssion found
+factor found
+term found
+simple experssion found
+experssion found
 Repeat Statment found
+factor found
+term found
+simple experssion found
 Write Statment found
+Statment Sequence found
 If Statment found
+Statment Sequence found
 Program found
